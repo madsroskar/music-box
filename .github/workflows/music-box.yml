@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: '0 * * * *'  # hourly
   push:
-    branches: master
+    branches: main
 jobs:
   musicbox:
    runs-on: ubuntu-latest
